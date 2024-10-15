@@ -150,6 +150,42 @@ const App = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='article_next'>
+                        <img className='article_next_img' src="./assets/expect.svg" alt="" />
+                        <span>Показать все</span>
+                    </div>
+                    <div className="repair_technique_dows">
+                        <span>Ремонт различных видов техники</span>
+                        <div className="brands_list1">
+                            <div className="brand_block_down">
+                                <span>Ремонт ноутбуков</span>
+                                <img className='borrow_img' src="./assets/borrow.svg" />
+                            </div>
+                            <div className="brand_block_down">
+                                <span>Ремонт планшетов</span>
+                                <img className='borrow_img' src="./assets/borrow.svg" />
+                            </div>
+                            <div className="brand_block_down">
+                                <span>Ремонт ПК</span>
+                                <img className='borrow_img' src="./assets/borrow.svg" />
+                            </div>
+                            <div className="brand_block_down">
+                                <span>Ремонт  мониторов</span>
+                                <img className='borrow_img' src="./assets/borrow.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <span className='span_price'>ЦЕНЫ НА УСЛУГИ</span>
+                    <div className="price_block">
+                        <table>
+                            <thead>
+
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

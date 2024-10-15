@@ -18,6 +18,8 @@ html {
 .left_block {
     width: auto;
     border-right: 1px solid gray;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .left_block,
@@ -137,6 +139,8 @@ html {
 .slider_buttons {
     display: block;
     justify-content: space-between;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .slider_button {
@@ -202,16 +206,32 @@ html {
 
 .article_next span {
     color: black;
+    cursor: pointer;
 }
 
 .repair_technique {
     margin-top: 50px;
 }
 
+.repair_technique_dows {
+    margin-top: 20px;
+}
+
+.repair_technique_dows span,
+.span_price {
+    font-size: 25px;
+    font-weight: 100;
+    color: gray;
+}
+
 .repair_technique span {
     font-size: 25px;
     font-weight: 100;
     color: gray;
+}
+
+.brand_block_down span {
+    font-size: 10px;
 }
 
 .brands_list1,
@@ -228,6 +248,7 @@ html {
 .borrow_img {
     margin-left: 20px;
     margin: 0 0 0 auto;
+    cursor: pointer;
 }
 
 .brand_block {
@@ -238,4 +259,15 @@ html {
     width: 200px;
     background-color: #FFFFFF;
     height: 60px;
+}
+
+.brand_block_down {
+    border: 1px solid #EAEAEA;
+    padding: 10px;
+    align-items: center;
+    display: grid;
+    width: 200px;
+    background-color: #FFFFFF;
+    height: 125px;
+    font-size: 13px;
 }
