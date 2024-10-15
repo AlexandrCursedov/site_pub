@@ -1,0 +1,241 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+    /* outline: 1px solid red; */
+}
+
+html {
+    font-family: 'TT Lakes';
+    font-weight: bold;
+    font-style: normal;
+    background-color: #F8F8F8;
+}
+
+.main {
+    display: flex;
+
+}
+
+.left_block {
+    width: auto;
+    border-right: 1px solid gray;
+}
+
+.left_block,
+.main_block {
+    padding: 20px;
+    height: 100%;
+}
+
+.logo_and_search {
+    display: flex;
+}
+
+.search {
+    margin-left: 100px;
+}
+
+.nav_items {
+    margin-top: 25px;
+}
+
+.nav_items .item {
+    padding: 10px 0;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.nav_items .item span:hover {
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.cps_logo,
+.search {
+    cursor: pointer;
+}
+
+.info_block {
+    margin-top: 100px;
+}
+
+.icons {
+    display: flex;
+    justify-content: left;
+}
+
+.icon_img2 {
+    margin: 0 25px;
+}
+
+.email,
+.number,
+.language {
+    margin: 15px 0;
+}
+
+.number {
+    font-size: 20px;
+}
+
+.EN {
+    margin: 0 10px;
+}
+
+.title h1 {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.main_block {
+    width: 100%;
+}
+
+.main_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navs .block1,
+.navs .block2 {
+    display: flex;
+}
+
+.navs {
+    display: flex;
+}
+
+.header_text {
+    margin: auto;
+    margin-right: 10px;
+}
+
+.block1 {
+    margin-right: 20px;
+}
+
+.icons img {
+    cursor: pointer;
+}
+
+.language span {
+    cursor: pointer;
+}
+
+.language span:hover {
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.main_header {
+    align-items: center;
+}
+
+.slider {
+    margin-top: 20px;
+}
+
+.slider_buttons {
+    display: block;
+    justify-content: space-between;
+}
+
+.slider_button {
+    padding: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 15px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: rgb(245 245 245);
+}
+
+.slider_button:hover {
+    background-color: #B8FFEC;
+    transition: background-color 0.3s ease;
+    border: 1px solid #B8FFEC;
+}
+
+.main_block {
+    min-width: 649px;
+}
+
+.block1 span,
+.block1 img,
+.block2 span,
+.block2 img {
+    cursor: pointer;
+}
+
+.block1 span:hover,
+.block2 span:hover {
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.article {
+    display: flex;
+    margin-top: 20px;
+}
+
+.cps_img {
+    width: 600px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+.article span {
+    max-width: 50%;
+    color: gray;
+    font-size: 18px;
+}
+
+.article_next_img {
+    width: 30px;
+}
+
+.article_next {
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+.article_next span {
+    color: black;
+}
+
+.repair_technique {
+    margin-top: 50px;
+}
+
+.repair_technique span {
+    font-size: 25px;
+    font-weight: 100;
+    color: gray;
+}
+
+.brands_list1,
+.brands_list2 {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand_logo {
+    width: 40%;
+}
+
+.borrow_img {
+    margin-left: 20px;
+    margin: 0 0 0 auto;
+}
+
+.brand_block {
+    border: 1px solid #EAEAEA;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    background-color: #FFFFFF;
+    height: 60px;
+}
