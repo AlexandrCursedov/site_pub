@@ -1,11 +1,11 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+import path from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-module.exports = {
+export default {
     mode: 'development',
     entry: './src/index.tsx',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve('dist'),
         filename: 'bundle.js',
     },
     resolve: {
